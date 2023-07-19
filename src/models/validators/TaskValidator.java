@@ -5,7 +5,7 @@ import java.util.List;
 
 import models.Tasks;
 
-public class MessageValidator {
+public class TaskValidator {
     // バリデーションを実行する
     public static List<String> validate(Tasks m) {
         List<String> errors = new ArrayList<String>();
